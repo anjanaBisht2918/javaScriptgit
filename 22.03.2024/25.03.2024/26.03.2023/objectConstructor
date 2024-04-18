@@ -1,0 +1,23 @@
+//objecgt creation using object constructor
+
+let obj =new Object()
+obj.objName ="car"
+obj.carNumber =["uk001","uk002","uk003"]
+//console.log(obj)
+  
+console.log(obj.hasOwnProperty( "objName"))
+console.log(obj.propertyIsEnumerable( "carNumber"))
+ 
+
+ for (let i in obj)
+ {
+//     // console.log( obj[i])
+//     // console.log(i)
+    console.log("values are : "+obj[i])
+ }
+
+ console.log(Object.entries(obj))  //here we will get key value pairs
+ console.log(Object.keys(obj));  //here we will get keys only
+
+
+ 
